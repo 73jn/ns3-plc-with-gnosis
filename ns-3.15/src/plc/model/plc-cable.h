@@ -47,10 +47,10 @@
 #define GKN_D 0.65e-3
 #define GKN_THETA 1.3e-3
 
-#define NAYY150SE_D		GKN_D//1.8e-3		// insulation, m
-#define NAYY150SE_A		GKN_A//6e-4		// conductor area, 4*150e-6m^2
-#define NAYY150SE_THETA	GKN_THETA//3.6e-3		// 2*NAYY150SE_D
-#define NAYY150SE_R		GKN_R//13.82e-3	// radius, m, r = sqrt(A/pi)
+#define NAYY150SE_D		0.65e-3//1.8e-3		// insulation, m
+#define NAYY150SE_A		17.17e-6//6e-4		// conductor area, 4*150e-6m^2
+#define NAYY150SE_THETA	1.3e-3//3.6e-3		// 2*NAYY150SE_D
+#define NAYY150SE_R		2.33e-3//13.82e-3	// radius, m, r = sqrt(A/pi)
 
 #define NAYY50SE_D		1.4e-3		// insulation, m
 #define NAYY50SE_A		2e-4		// conductor area, 4*50e-6m^2
