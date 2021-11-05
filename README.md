@@ -1,3 +1,49 @@
+# Informations about this repo
+This repo contains all the files to launch NS-3 simulator with GUI
+I use UNBUNTU 1804 64 bits
+
+# Step i have done
+NS-3 Version is 3.15
+
+
+PLC module used is : https://github.com/ns3-plc-module/plc
+On this following commit
+```
+git checkout 2cd8884cfbc5d8f1094f25aeef747d7f4f38ac71
+```
+
+How to know your G++ version :
+```
+sudo update-alternatives --config g++
+```
+You will need the version 4.4 of g++
+
+
+To launch the compilation of NS-3 use this following command :
+```
+CXXFLAGS="-std=c++0x" ./waf configure
+./waf
+```
+
+GNOSIS (link is dead, but i clone it into https://github.com/73jn/plc-gnosis) :
+Install Qt version 4.8
+Replace interference.InitializeRx(rxPSD); by interference.StartRx(rxPSD);
+Problem with Qjson, go on the branch 1_0_0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is ns-3-allinone.
 
 If you have downloaded this in tarball release format, this directory
