@@ -1,0 +1,94 @@
+>>>>>>>>>>>>>>>> [['void', 'ns3::Ptr<ns3::Packet>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty']]
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:265: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:270: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:321: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:326: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:340: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:370: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:383: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:438: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:482: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:668: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fbc19ce2b90>
+  cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:702: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:749: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Enable (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:862: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:935: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:976: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['uint8_t [ 20 ]'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1096: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::GetBuffer (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1100: Warning: exception TypeLookupError(['MPI_Request *'],) in wrapper public: retval? ???::GetRequest (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1104: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::SetBuffer (params?);
+  [param('uint8_t *', 'buffer')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1143: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1155: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fbc19b94e10>
+  cls.add_constructor([param('uint8_t *', 'start'), param('uint8_t *', 'end')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1163: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1191: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1256: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1521: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1549: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1853: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::Schedule (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1858: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleDestroy (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1863: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleNow (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:1868: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleWithContext (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2094: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2309: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::Schedule (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2314: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleDestroy (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2319: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleNow (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2324: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleWithContext (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2506: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fbc1987a2d0>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size'), param('bool', 'magic')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2508: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fbc1987a350>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2549: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2554: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2609: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  deprecated=True, is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2628: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2633: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintByteTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2638: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintPacketTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/mpi/bindings/modulegen__gcc_LP64.py:2671: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)

@@ -1,0 +1,11 @@
+>>>>>>>>>>>>>>>> []
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/antenna/bindings/modulegen__gcc_LP64.py:196: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/antenna/bindings/modulegen__gcc_LP64.py:201: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/antenna/bindings/modulegen__gcc_LP64.py:312: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/antenna/bindings/modulegen__gcc_LP64.py:369: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::AntennaModel cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::AntennaModel'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))

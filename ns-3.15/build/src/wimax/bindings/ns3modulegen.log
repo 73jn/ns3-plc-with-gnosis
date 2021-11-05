@@ -1,0 +1,533 @@
+>>>>>>>>>>>>>>>> [['void', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::Address const&', 'ns3::NetDevice::PacketType', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::PacketBurst const>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::Address const&', 'ns3::NetDevice::PacketType', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'bool', 'unsigned long long', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty']]
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper <pybindgen.Container 'std::vector< ns3::ServiceFlow * >'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper <pybindgen.Container 'std::vector< ns3::SSRecord * >'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['std::pair< ns3::OfdmDlMapIe *, ns3::Ptr< ns3::PacketBurst > >'],) in wrapper <pybindgen.Container 'std::list< std::pair< ns3::OfdmDlMapIe *, ns3::Ptr< ns3::PacketBurst > > >'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::PacketBurst const >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, bool, unsigned long long, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:771: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f194077ab10>
+  cls.add_constructor([param('uint8_t', 'type'), param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:782: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:787: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:791: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:796: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:965: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:970: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1021: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1026: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1040: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1070: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1083: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1138: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1182: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1624: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f1940586b10>
+  cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1658: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1756: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1821: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1826: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1893: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1910: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f1940524190>
+  cls.add_constructor([param('uint8_t *', 'address')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1928: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:1953: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2057: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2062: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2070: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Set (params?);
+  [param('uint8_t *', 'address')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2080: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f19404e9910>
+  cls.add_constructor([param('uint8_t *', 'prefix')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2093: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2128: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2189: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2194: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2264: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2269: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2315: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2328: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2416: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2811: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2852: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['uint8_t [ 20 ]'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:2979: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::Diff (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:3033: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t * const', 'data'), param('uint32_t', 'maxBytes'), param('uint32_t &', 'tsSec'), param('uint32_t &', 'tsUsec'), param('uint32_t &', 'inclLen'), param('uint32_t &', 'origLen'), param('uint32_t &', 'readLen')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:3037: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint32_t', 'tsSec'), param('uint32_t', 'tsUsec'), param('uint8_t const * const', 'data'), param('uint32_t', 'totalLen')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:3123: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetSNRToBlockErrorRateRecord (params?);
+  [param('double', 'SNR'), param('uint8_t', 'modulation')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:3154: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Copy (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:3213: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::AddServiceFlow (params?);
+  [param('ns3::ServiceFlow *', 'serviceFlow')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:3314: Warning: exception TypeLookupError(['std::vector< ns3::ServiceFlow * >'],) in wrapper public: retval? ???::GetServiceFlows (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:3550: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetRecord (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:3730: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SetRecord (params?);
+  [param('ns3::ServiceFlowRecord *', 'record')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:3990: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::GetImplementation (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4025: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::SetImplementation (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4067: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4079: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f194002bc10>
+  cls.add_constructor([param('uint8_t *', 'start'), param('uint8_t *', 'end')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4087: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4115: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4147: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4176: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4251: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4394: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4432: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4470: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4568: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Tlv * const *, std::vector< ns3::Tlv * > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4573: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4583: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Tlv * const *, std::vector< ns3::Tlv * > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4883: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4895: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4912: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4945: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4966: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ipv4AddressTlvValue::ipv4Addr const *, std::vector< ns3::Ipv4AddressTlvValue::ipv4Addr > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4971: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:4981: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ipv4AddressTlvValue::ipv4Addr const *, std::vector< ns3::Ipv4AddressTlvValue::ipv4Addr > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5046: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5099: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5230: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5329: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::Ptr< ns3::Packet > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5339: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::Ptr< ns3::Packet > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5412: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('ns3::Time', 't'), param('uint8_t const *', 'buffer'), param('uint32_t', 'length')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5456: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::PortRangeTlvValue::PortRange const *, std::vector< ns3::PortRangeTlvValue::PortRange > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5461: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5471: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::PortRangeTlvValue::PortRange const *, std::vector< ns3::PortRangeTlvValue::PortRange > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5538: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper public: retval? ???::CalcRxPower (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5547: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const = 0;
+  is_pure_virtual=True, is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5568: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< unsigned char const *, std::vector< unsigned char > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5573: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5583: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< unsigned char const *, std::vector< unsigned char > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5608: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5656: Warning: exception TypeLookupError(['ns3::RngStream *'],) in wrapper protected: retval? ???::Peek (params?) const;
+  is_const=True, visibility='protected')
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5671: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5728: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5857: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5929: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::CreateSSRecord (params?);
+  [param('ns3::Mac48Address const &', 'macAddress')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5953: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetSSRecord (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5958: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetSSRecord (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:5963: Warning: exception TypeLookupError(['std::vector< ns3::SSRecord * > *'],) in wrapper public: retval? ???::GetSSRecords (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6029: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::AddServiceFlow (params?);
+  [param('ns3::ServiceFlow *', 'serviceFlow')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6037: Warning: exception TypeLookupError(['std::vector< ns3::ServiceFlow * > *'],) in wrapper public: retval? ???::AreServiceFlowsAllocated (params?);
+  [param('std::vector< ns3::ServiceFlow * > *', 'serviceFlows')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6041: Warning: exception TypeLookupError(['std::vector< ns3::ServiceFlow * >'],) in wrapper public: retval? ???::AreServiceFlowsAllocated (params?);
+  [param('std::vector< ns3::ServiceFlow * >', 'serviceFlows')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6046: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::DoClassify (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6055: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetNextServiceFlowToAllocate (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6065: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetServiceFlow (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6070: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetServiceFlow (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6075: Warning: exception TypeLookupError(['std::vector< ns3::ServiceFlow * >'],) in wrapper public: retval? ???::GetServiceFlows (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6092: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6216: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::AddServiceFlow (params?);
+  [param('ns3::ServiceFlow *', 'serviceFlow')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6279: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6454: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Copy (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6459: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::CopyValue (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6493: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekValue (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6498: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6558: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6656: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6742: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6803: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetServiceFlow (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6811: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetSsRecord (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6835: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SetServiceFlow (params?);
+  [param('ns3::ServiceFlow *', 'serviceFlow')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6843: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SetSsRecord (params?);
+  [param('ns3::SSRecord *', 'ssRecord')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6903: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6968: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::AddUplinkAllocation (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:6973: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::AllocateInitialRangingInterval (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7038: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::OnSetRequestedBandwidth (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7053: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::ServiceBandwidthRequests (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7058: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ServiceBandwidthRequests (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7063: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::ServiceUnsolicitedGrants (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7103: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::SetupServiceFlow (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7117: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::AddUplinkAllocation (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7122: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::AllocateInitialRangingInterval (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7131: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::CheckDeadline (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7135: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::CheckMinimumBandwidth (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7147: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::CreateUlJob (params?);
+  [param('ns3::SSRecord *', 'ssRecord'), param('ns3::ServiceFlow::SchedulingType', 'schedType'), param('ns3::ReqType', 'reqType')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7155: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::DetermineDeadline (params?);
+  [param('ns3::ServiceFlow *', 'serviceFlow')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7168: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::GetPendingSize (params?);
+  [param('ns3::ServiceFlow *', 'serviceFlow')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7188: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::OnSetRequestedBandwidth (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7203: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::ServiceBandwidthRequests (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7208: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ServiceBandwidthRequests (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7212: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::ServiceBandwidthRequestsBytes (params?);
+  [param('ns3::ServiceFlow *', 'serviceFlow'), param('ns3::ServiceFlow::SchedulingType', 'schedulingType'), param('ns3::OfdmUlMapIe &', 'ulMapIe'), param('ns3::WimaxPhy::ModulationType const', 'modulationType'), param('uint32_t &', 'symbolsToAllocation'), param('uint32_t &', 'availableSymbols'), param('uint32_t', 'allocationSizeBytes')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7217: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::ServiceUnsolicitedGrants (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7222: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::SetupServiceFlow (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7240: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::AddUplinkAllocation (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7245: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::AllocateInitialRangingInterval (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7275: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::OnSetRequestedBandwidth (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7290: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::ServiceBandwidthRequests (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7295: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ServiceBandwidthRequests (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7300: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::ServiceUnsolicitedGrants (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7305: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::SetupServiceFlow (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7309: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::ULSchedulerRTPSConnection (params?);
+  [param('uint32_t &', 'symbolsToAllocation'), param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7323: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::AddUplinkAllocation (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7328: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::AllocateInitialRangingInterval (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7358: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::OnSetRequestedBandwidth (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7373: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::ServiceBandwidthRequests (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7378: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ServiceBandwidthRequests (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7383: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: virtual retval? ???::ServiceUnsolicitedGrants (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7388: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::SetupServiceFlow (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7483: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetServiceFlow (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7512: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SetServiceFlow (params?);
+  [param('ns3::ServiceFlow *', 'serviceFlow')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7569: Warning: exception TypeLookupError(['std::deque< ns3::WimaxMacQueue::QueueElement > &'],) in wrapper public: retval? ???::GetPacketQueue (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7708: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7839: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::PacketBurst const >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetReceiveCallback (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7909: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::Send (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:7987: Warning: exception TypeLookupError(['ns3::Callback< void, bool, unsigned long, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::StartScanning (params?);
+  [param('uint64_t', 'frequency'), param('ns3::Time', 'timeout'), param('ns3::Callback< void, bool, unsigned long, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'callback')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8247: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::CreateUgsBurst (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8257: Warning: exception TypeLookupError(['std::list< std::pair< ns3::OfdmDlMapIe *, ns3::Ptr< ns3::PacketBurst > > > *'],) in wrapper public: virtual retval? ???::GetDownlinkBursts (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8272: Warning: exception TypeLookupError(['ns3::Ptr< ns3::WimaxConnection > &'],) in wrapper public: virtual retval? ???::SelectConnection (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8295: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::BSSchedulerBEConnection (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8299: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::BSSchedulerBasicConnection (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8303: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::BSSchedulerBroadcastConnection (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8307: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::BSSchedulerInitialRangingConnection (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8311: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::BSSchedulerNRTPSConnection (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8315: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::BSSchedulerPrimaryConnection (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8319: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::BSSchedulerRTPSConnection (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8323: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::BSSchedulerUGSConnection (params?);
+  [param('uint32_t &', 'availableSymbols')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8328: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::CreateUgsBurst (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8333: Warning: exception TypeLookupError(['std::list< std::pair< ns3::OfdmDlMapIe *, ns3::Ptr< ns3::PacketBurst > > > *'],) in wrapper public: virtual retval? ???::GetDownlinkBursts (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8347: Warning: exception TypeLookupError(['ns3::Ptr< ns3::WimaxConnection > &'],) in wrapper public: retval? ???::SelectBEConnection (params?);
+  [param('ns3::Ptr< ns3::WimaxConnection > &', 'connection')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8352: Warning: exception TypeLookupError(['ns3::Ptr< ns3::WimaxConnection > &'],) in wrapper public: virtual retval? ???::SelectConnection (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8356: Warning: exception TypeLookupError(['ns3::Ptr< ns3::WimaxConnection > &'],) in wrapper public: retval? ???::SelectIRandBCConnection (params?);
+  [param('ns3::Ptr< ns3::WimaxConnection > &', 'connection')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8360: Warning: exception TypeLookupError(['ns3::Ptr< ns3::WimaxConnection > &'],) in wrapper public: retval? ???::SelectMenagementConnection (params?);
+  [param('ns3::Ptr< ns3::WimaxConnection > &', 'connection')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8364: Warning: exception TypeLookupError(['ns3::Ptr< ns3::WimaxConnection > &'],) in wrapper public: retval? ???::SelectNRTPSConnection (params?);
+  [param('ns3::Ptr< ns3::WimaxConnection > &', 'connection')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8368: Warning: exception TypeLookupError(['ns3::Ptr< ns3::WimaxConnection > &'],) in wrapper public: retval? ???::SelectRTPSConnection (params?);
+  [param('ns3::Ptr< ns3::WimaxConnection > &', 'connection')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8372: Warning: exception TypeLookupError(['ns3::Ptr< ns3::WimaxConnection > &'],) in wrapper public: retval? ???::SelectUGSConnection (params?);
+  [param('ns3::Ptr< ns3::WimaxConnection > &', 'connection')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8391: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::CreateUgsBurst (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8396: Warning: exception TypeLookupError(['std::list< std::pair< ns3::OfdmDlMapIe *, ns3::Ptr< ns3::PacketBurst > > > *'],) in wrapper public: virtual retval? ???::GetDownlinkBursts (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8411: Warning: exception TypeLookupError(['ns3::Ptr< ns3::WimaxConnection > &'],) in wrapper public: virtual retval? ???::SelectConnection (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8478: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8527: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::AddServiceFlow (params?);
+  [param('ns3::ServiceFlow *', 'serviceFlow')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8546: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetServiceFlow (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8551: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetServiceFlow (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8556: Warning: exception TypeLookupError(['std::vector< ns3::ServiceFlow * >'],) in wrapper public: retval? ???::GetServiceFlows (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8564: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::ProcessDsaReq (params?);
+  [param('ns3::DsaReq const &', 'dsaReq'), param('ns3::Cid', 'cid')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8657: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::AllocateManagementConnections (params?);
+  [param('ns3::SSRecord *', 'ssRecord'), param('ns3::RngRsp *', 'rngrsp')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8694: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SetCidFactory (params?);
+  [param('ns3::CidFactory *', 'cidFactory')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8788: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8885: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:8945: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9017: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9100: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9300: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9352: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9411: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9531: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9625: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9653: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Classify (params?);
+  [param('ns3::Ptr< ns3::Packet const >', 'packet'), param('ns3::Ptr< ns3::ServiceFlowManager >', 'sfm'), param('ns3::ServiceFlow::Direction', 'dir')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9846: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9943: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper public: retval? ???::SetLoss (params?);
+  [param('ns3::Ptr< ns3::MobilityModel >', 'a'), param('ns3::Ptr< ns3::MobilityModel >', 'b'), param('double', 'loss'), param('bool', 'symmetric', default_value='true')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9952: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:9972: Warning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper private: virtual retval? ???::DoCalcRxPower (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10166: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::AddApplication (params?);
+  [param('ns3::Ptr< ns3::Application >', 'application')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10180: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::GetApplication (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10214: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::RegisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10222: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::UnregisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10330: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f193f15e590>
+  cls.add_constructor([param('std::ostream *', 'os')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10334: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::GetStream (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10346: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f193f165510>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size'), param('bool', 'magic')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10348: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f193f165590>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10389: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10394: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10449: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  deprecated=True, is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10468: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10473: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintByteTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10478: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintPacketTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10511: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10639: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::Send (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:10651: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::PacketBurst >, ns3::Ptr< ns3::WimaxConnection >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::SetReceiveCallback (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::PacketBurst >, ns3::Ptr< ns3::WimaxConnection >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'callback')])
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['ns3::TracedCallback< ns3::Ptr< ns3::Packet const >, ns3::Mac48Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11025: Warning: exception TypeLookupError(['ns3::Ptr< ns3::BurstProfileManager >', 'ns3::BurstProfileManager *'],) in wrapper public: retval? ???::GetBurstProfileManager (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11029: Warning: exception TypeLookupError(['ns3::Ptr< ns3::BurstProfileManager >', 'ns3::BurstProfileManager *'],) in wrapper public: retval? ???::SetBurstProfileManager (params?);
+  [param('ns3::Ptr< ns3::BurstProfileManager >', 'burstProfileManager')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11034: Warning: exception TypeLookupError(['ns3::Ptr< ns3::BandwidthManager >', 'ns3::BandwidthManager *'],) in wrapper public: retval? ???::GetBandwidthManager (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11038: Warning: exception TypeLookupError(['ns3::Ptr< ns3::BandwidthManager >', 'ns3::BandwidthManager *'],) in wrapper public: retval? ???::SetBandwidthManager (params?);
+  [param('ns3::Ptr< ns3::BandwidthManager >', 'bandwidthManager')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11203: Warning: exception TypeLookupError(['ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetPromiscReceiveCallback (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11447: Warning: exception TypeLookupError(['ns3::Ptr< ns3::BSLinkManager >', 'ns3::BSLinkManager *'],) in wrapper public: retval? ???::GetLinkManager (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11460: Warning: exception TypeLookupError(['ns3::Ptr< ns3::BSLinkManager >', 'ns3::BSLinkManager *'],) in wrapper public: retval? ???::SetLinkManager (params?);
+  [param('ns3::Ptr< ns3::BSLinkManager >', 'linkManager')])
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['ns3::Ptr< ns3::SSLinkManager >', 'ns3::SSLinkManager *'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11753: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SSScheduler >', 'ns3::SSScheduler *'],) in wrapper public: retval? ???::GetScheduler (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11757: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SSScheduler >', 'ns3::SSScheduler *'],) in wrapper public: retval? ???::SetScheduler (params?);
+  [param('ns3::Ptr< ns3::SSScheduler >', 'ssScheduler')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11785: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::AddServiceFlow (params?);
+  [param('ns3::ServiceFlow *', 'sf')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11816: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SSLinkManager >', 'ns3::SSLinkManager *'],) in wrapper public: retval? ???::GetLinkManager (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11820: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SSLinkManager >', 'ns3::SSLinkManager *'],) in wrapper public: retval? ???::SetLinkManager (params?);
+  [param('ns3::Ptr< ns3::SSLinkManager >', 'arg0')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11852: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.function.Function object at 0x7f193ed9e5d0>
+  [param('uint8_t const *', 'data'), param('int', 'length')])
+/home/pradeepkumar/ns-allinone-3.15/pybindgen-0.15.0.809/pybindgen/cppclass_typehandlers.py:1134: UserWarning: Returning shared pointers is dangerous!  The C++ API should be redesigned to avoid this situation.
+  warnings.warn("Returning shared pointers is dangerous!"
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11129: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::SetLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11184: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11189: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:11199: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::SetLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::DcdChannelEncodings cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::DcdChannelEncodings'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::TlvValue cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::TlvValue'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::UcdChannelEncodings cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::UcdChannelEncodings'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::VectorTlvValue cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::VectorTlvValue'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::OfdmDownlinkFramePrefix cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::OfdmDownlinkFramePrefix'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::UplinkScheduler cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::UplinkScheduler'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WimaxPhy cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::WimaxPhy'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::BSScheduler cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::BSScheduler'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WimaxChannel cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::WimaxChannel'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:755: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::SetLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  register_Ns3WimaxNetDevice_methods(root_module, root_module['ns3::WimaxNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:755: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3WimaxNetDevice_methods(root_module, root_module['ns3::WimaxNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:755: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  register_Ns3WimaxNetDevice_methods(root_module, root_module['ns3::WimaxNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wimax/bindings/modulegen__gcc_LP64.py:755: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WimaxNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3WimaxNetDevice_methods(root_module, root_module['ns3::WimaxNetDevice'])

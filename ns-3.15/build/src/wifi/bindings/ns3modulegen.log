@@ -1,0 +1,556 @@
+>>>>>>>>>>>>>>>> [['void', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::Address const&', 'ns3::NetDevice::PacketType', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Packet>', 'ns3::WifiMacHeader const*', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::Address const&', 'ns3::NetDevice::PacketType', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::WifiMacHeader const&', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Packet>', 'ns3::Mac48Address', 'ns3::Mac48Address', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Mac48Address', 'unsigned char', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Mac48Address', 'unsigned char', 'bool', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty']]
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['std::pair< ns3::Ptr< ns3::Packet >, ns3::AmsduSubframeHeader >'],) in wrapper <pybindgen.Container 'std::list< std::pair< ns3::Ptr< ns3::Packet >, ns3::AmsduSubframeHeader > >'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+***** registering callback handler: 'ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::WifiMacHeader const *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::WifiMacHeader const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Mac48Address, ns3::Mac48Address, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Mac48Address, unsigned char, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Mac48Address, unsigned char, bool, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:835: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fe28e1927d0>
+  cls.add_constructor([param('uint8_t', 'type'), param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:846: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:851: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:855: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:860: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1052: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1057: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1176: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::FillBlockAckBitmap (params?);
+  [param('ns3::CtrlBAckResponseHeader *', 'blockAckHeader')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1293: Warning: exception TypeLookupError(['ns3::MacTxMiddle *'],) in wrapper public: retval? ???::SetTxMiddle (params?);
+  [param('ns3::MacTxMiddle *', 'txMiddle')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1346: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1351: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1365: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1395: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1408: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1463: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1507: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1732: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Add (params?);
+  [param('ns3::DcfState *', 'dcf')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1789: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::RequestAccess (params?);
+  [param('ns3::DcfState *', 'state')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1928: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fe28ded8290>
+  cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1962: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1971: Warning: exception TypeLookupError(['ns3::Ptr< ns3::InterferenceHelper::Event >', 'ns3::InterferenceHelper::Event *'],) in wrapper public: retval? ???::Add (params?);
+  [param('uint32_t', 'size'), param('ns3::WifiMode', 'payloadMode'), param('ns3::WifiPreamble', 'preamble'), param('ns3::Time', 'duration'), param('double', 'rxPower')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:1975: Warning: exception TypeLookupError(['ns3::Ptr< ns3::InterferenceHelper::Event >', 'ns3::InterferenceHelper::Event *'],) in wrapper public: retval? ???::CalculateSnrPer (params?);
+  [param('ns3::Ptr< ns3::InterferenceHelper::Event >', 'event')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2050: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2115: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2120: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2187: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2204: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fe28dddfcd0>
+  cls.add_constructor([param('uint8_t *', 'address')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2222: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2247: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2351: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2356: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2364: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Set (params?);
+  [param('uint8_t *', 'address')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2374: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fe28ddaeb50>
+  cls.add_constructor([param('uint8_t *', 'prefix')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2387: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2422: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2449: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2454: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2755: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2760: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2806: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2819: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:2907: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3026: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3067: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['uint8_t [ 20 ]'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3194: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::Diff (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3248: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t * const', 'data'), param('uint32_t', 'maxBytes'), param('uint32_t &', 'tsSec'), param('uint32_t &', 'tsUsec'), param('uint32_t &', 'inclLen'), param('uint32_t &', 'origLen'), param('uint32_t &', 'readLen')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3252: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint32_t', 'tsSec'), param('uint32_t', 'tsUsec'), param('uint8_t const * const', 'data'), param('uint32_t', 'totalLen')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3407: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::GetImplementation (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3442: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::SetImplementation (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3519: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3531: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fe28daad790>
+  cls.add_constructor([param('uint8_t *', 'start'), param('uint8_t *', 'end')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3539: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3567: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:3632: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4222: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4250: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4317: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4412: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4492: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4549: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4604: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4663: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4727: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:4879: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('ns3::Time', 't'), param('uint8_t const *', 'buffer'), param('uint32_t', 'length')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:5009: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:5140: Warning: exception TypeLookupError(['ns3::RngStream *'],) in wrapper protected: retval? ???::Peek (params?) const;
+  is_const=True, visibility='protected')
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:5563: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:5787: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:5857: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:5883: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::WifiInformationElement >, std::vector< ns3::Ptr< ns3::WifiInformationElement > > >'],) in wrapper public: retval? ???::Begin (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:5897: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::WifiInformationElement >, std::vector< ns3::Ptr< ns3::WifiInformationElement > > >'],) in wrapper public: retval? ???::End (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:5922: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:6413: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:6581: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Dequeue (params?);
+  [param('ns3::WifiMacHeader *', 'hdr')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:6585: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::DequeueByTidAndAddress (params?);
+  [param('ns3::WifiMacHeader *', 'hdr'), param('uint8_t', 'tid'), param('ns3::WifiMacHeader::AddressType', 'type'), param('ns3::Mac48Address', 'addr')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:6589: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::DequeueFirstAvailable (params?);
+  [param('ns3::WifiMacHeader *', 'hdr'), param('ns3::Time &', 'tStamp'), param('ns3::QosBlockedDestinations const *', 'blockedPackets')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:6628: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Peek (params?);
+  [param('ns3::WifiMacHeader *', 'hdr')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:6632: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::PeekByTidAndAddress (params?);
+  [param('ns3::WifiMacHeader *', 'hdr'), param('uint8_t', 'tid'), param('ns3::WifiMacHeader::AddressType', 'type'), param('ns3::Mac48Address', 'addr')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:6636: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::PeekFirstAvailable (params?);
+  [param('ns3::WifiMacHeader *', 'hdr'), param('ns3::Time &', 'tStamp'), param('ns3::QosBlockedDestinations const *', 'blockedPackets')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7001: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::RegisterListener (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7016: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet const >, double, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::SetReceiveErrorCallback (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7021: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, double, ns3::WifiMode, ns3::WifiPreamble, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::SetReceiveOkCallback (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7241: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const = 0;
+  is_pure_virtual=True, is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7246: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?) = 0;
+  is_pure_virtual=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7251: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?) = 0;
+  is_pure_virtual=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7256: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoNeedDataRetransmission (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7261: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoNeedFragmentation (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7266: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoNeedRts (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7271: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoNeedRtsRetransmission (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7276: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?) = 0;
+  is_pure_virtual=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7281: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?) = 0;
+  is_pure_virtual=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7286: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?) = 0;
+  is_pure_virtual=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7291: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?) = 0;
+  is_pure_virtual=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7296: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?) = 0;
+  is_pure_virtual=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7301: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?) = 0;
+  is_pure_virtual=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7306: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?) = 0;
+  is_pure_virtual=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7447: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, double, ns3::WifiMode, ns3::WifiPreamble, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::SetReceiveOkCallback (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7452: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet const >, double, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::SetReceiveErrorCallback (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7462: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::RegisterListener (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7630: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7635: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7640: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7645: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7650: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7655: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7660: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7665: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7670: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7675: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7697: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7702: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7707: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7712: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoNeedRts (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7717: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7722: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7727: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7732: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7737: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7742: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7747: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7769: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7774: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7779: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7784: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7789: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7794: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7799: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7804: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7809: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7814: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7866: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7900: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7905: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7910: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7915: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7920: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7925: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7930: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7935: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7940: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:7945: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8161: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8166: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8171: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8176: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoNeedRts (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8181: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8186: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8191: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8196: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8201: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8206: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8211: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8293: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8298: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8303: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8308: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8313: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8318: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8323: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8328: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8333: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8338: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8523: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8561: Warning: exception TypeLookupError(['uint16_t *'],) in wrapper public: retval? ???::GetBitmap (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8631: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8790: Warning: exception TypeLookupError(['ns3::MacTxMiddle *'],) in wrapper public: retval? ???::SetTxMiddle (params?);
+  [param('ns3::MacTxMiddle *', 'txMiddle')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8794: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SetManager (params?);
+  [param('ns3::DcfManager *', 'manager')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:8970: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::GetFragmentPacket (params?);
+  [param('ns3::WifiMacHeader *', 'hdr')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9203: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fe28cc84450>
+  cls.add_constructor([param('ns3::SupportedRates *', 'rates')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9368: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9373: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9378: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9383: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9388: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9393: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9398: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9403: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9408: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9413: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9658: Warning: exception TypeLookupError(['std::complex< double >'],) in wrapper public: retval? ???::GetComplexGain (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9906: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::RegisterBlockAckListenerForAc (params?);
+  [param('ns3::AcIndex', 'ac'), param('ns3::MacLowBlockAckEventListener *', 'listener')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9910: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::RegisterDcfListener (params?);
+  [param('ns3::MacLowDcfListener *', 'listener')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:9966: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::StartTransmission (params?);
+  [param('ns3::Ptr< ns3::Packet const >', 'packet'), param('ns3::WifiMacHeader const *', 'hdr'), param('ns3::MacLowTransmissionParameters', 'parameters'), param('ns3::MacLowTransmissionListener *', 'listener')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10032: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10037: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10042: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10047: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10052: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10057: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10062: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10067: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10072: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10077: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10164: Warning: exception TypeLookupError(['std::list< std::pair< ns3::Ptr< ns3::Packet >, ns3::AmsduSubframeHeader > >'],) in wrapper public: retval? ???::Deaggregate (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10395: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::AddApplication (params?);
+  [param('ns3::Ptr< ns3::Application >', 'application')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10409: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::GetApplication (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10443: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::RegisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10451: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::UnregisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10592: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10597: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10602: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10607: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10612: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10617: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10622: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10627: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10632: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10637: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10651: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fe28c8cacd0>
+  cls.add_constructor([param('std::ostream *', 'os')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10655: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::GetStream (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10667: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fe28c861650>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size'), param('bool', 'magic')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10669: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fe28c861950>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10710: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10715: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10770: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  deprecated=True, is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10789: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10794: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintByteTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10799: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintPacketTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:10832: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11131: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper private: virtual retval? ???::DoCreateStation (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11136: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetDataMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11141: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoGetRtsMode (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11146: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoNeedRts (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11151: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11156: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportDataOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11161: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalDataFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11166: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportFinalRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11171: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsFailed (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11176: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRtsOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11181: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper private: virtual retval? ???::DoReportRxOk (params?);
+  visibility='private', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:12010: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SetManager (params?);
+  [param('ns3::DcfManager *', 'manager')])
+/home/pradeepkumar/ns-allinone-3.15/pybindgen-0.15.0.809/pybindgen/cppclass_typehandlers.py:1134: UserWarning: Returning shared pointers is dangerous!  The C++ API should be redesigned to avoid this situation.
+  warnings.warn("Returning shared pointers is dangerous!"
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:6082: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WifiMac::SetForwardUpCallback (ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Mac48Address, ns3::Mac48Address, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > upCallback) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11024: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::RegularWifiMac::SetForwardUpCallback (ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Mac48Address, ns3::Mac48Address, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > upCallback);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11029: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::RegularWifiMac::SetLinkUpCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkUp);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11034: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::RegularWifiMac::SetLinkDownCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkDown);
+  is_virtual=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::RegularWifiMac::SetForwardUpCallback (ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Mac48Address, ns3::Mac48Address, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > upCallback);
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::RegularWifiMac::SetLinkDownCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkDown);
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::RegularWifiMac::SetLinkUpCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkUp);
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11624: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WifiNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11757: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WifiNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11762: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WifiNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11899: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::AdhocWifiMac::SetLinkUpCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkUp);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:11929: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::ApWifiMac::SetLinkUpCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkUp);
+  is_virtual=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::DcfState cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::DcfState'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::MacLowBlockAckEventListener cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::MacLowBlockAckEventListener'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::MacLowDcfListener cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::MacLowDcfListener'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::MacLowTransmissionListener cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::MacLowTransmissionListener'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiMacHelper cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::WifiMacHelper'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiPhyHelper cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::WifiPhyHelper'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiPhyListener cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::WifiPhyListener'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiInformationElement cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::WifiInformationElement'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiMac cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::WifiMac'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiPhy cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::WifiPhy'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiRemoteStationManager cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::WifiRemoteStationManager'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Dcf cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::Dcf'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::ErrorRateModel cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::ErrorRateModel'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::MsduAggregator cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::MsduAggregator'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:798: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::RegularWifiMac::SetForwardUpCallback (ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Mac48Address, ns3::Mac48Address, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > upCallback);
+  register_Ns3RegularWifiMac_methods(root_module, root_module['ns3::RegularWifiMac'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:798: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::RegularWifiMac::SetLinkUpCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkUp);
+  register_Ns3RegularWifiMac_methods(root_module, root_module['ns3::RegularWifiMac'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:798: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::RegularWifiMac::SetLinkDownCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkDown);
+  register_Ns3RegularWifiMac_methods(root_module, root_module['ns3::RegularWifiMac'])
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::SsidChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::SsidChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiChannel cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::WifiChannel'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiModeChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::WifiModeChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:817: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WifiNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  register_Ns3WifiNetDevice_methods(root_module, root_module['ns3::WifiNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:817: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WifiNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3WifiNetDevice_methods(root_module, root_module['ns3::WifiNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:817: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::WifiNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3WifiNetDevice_methods(root_module, root_module['ns3::WifiNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:822: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::AdhocWifiMac::SetLinkUpCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkUp);
+  register_Ns3AdhocWifiMac_methods(root_module, root_module['ns3::AdhocWifiMac'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/wifi/bindings/modulegen__gcc_LP64.py:823: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::ApWifiMac::SetLinkUpCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > linkUp);
+  register_Ns3ApWifiMac_methods(root_module, root_module['ns3::ApWifiMac'])

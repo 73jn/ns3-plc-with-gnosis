@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/" lang="All">
+        <file>icons/arrow.svg</file>
+        <file>icons/edge.svg</file>
+        <file>icons/node.svg</file>
+        <file>icons/play.svg</file>
+        <file>icons/spectrum.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,202 @@
+>>>>>>>>>>>>>>>> [['void', 'ns3::Ptr<ns3::Packet>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Packet const>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::Packet>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::Address const&', 'ns3::NetDevice::PacketType', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::Address const&', 'ns3::NetDevice::PacketType', 'ns3::empty', 'ns3::empty', 'ns3::empty']]
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet const >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::Packet >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:609: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f85c8c002d0>
+  cls.add_constructor([param('uint8_t', 'type'), param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:620: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:625: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:629: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:634: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:734: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:739: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:803: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:808: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:822: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:852: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:865: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:920: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:964: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1178: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f85c8ad9090>
+  cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1212: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1242: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1307: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1312: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1379: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1396: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f85c8a3cb10>
+  cls.add_constructor([param('uint8_t *', 'address')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1414: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1439: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1543: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1548: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1556: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Set (params?);
+  [param('uint8_t *', 'address')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1566: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f85c8a06610>
+  cls.add_constructor([param('uint8_t *', 'prefix')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1579: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1614: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1641: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1646: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1733: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1738: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1784: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1797: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1885: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1958: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:1999: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['uint8_t [ 20 ]'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:2307: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:2319: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f85c8828dd0>
+  cls.add_constructor([param('uint8_t *', 'start'), param('uint8_t *', 'end')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:2327: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:2355: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:2431: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:2816: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:2844: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3151: Warning: exception TypeLookupError(['ns3::RngStream *'],) in wrapper protected: retval? ???::Peek (params?) const;
+  is_const=True, visibility='protected')
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3442: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::BandInfo const *, std::vector< ns3::BandInfo > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3447: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::BandInfo const *, std::vector< ns3::BandInfo > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3502: Warning: exception TypeLookupError(['ns3::Ptr< ns3::AntennaModel >', 'ns3::AntennaModel *'],) in wrapper public: virtual retval? ???::GetRxAntenna (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['ns3::Ptr< ns3::AntennaModel >', 'ns3::AntennaModel *'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3590: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::BandInfo const *, std::vector< ns3::BandInfo > >'],) in wrapper public: retval? ???::ConstBandsBegin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3595: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::BandInfo const *, std::vector< ns3::BandInfo > >'],) in wrapper public: retval? ???::ConstBandsEnd (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3600: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< double const *, std::vector< double > >'],) in wrapper public: retval? ???::ConstValuesBegin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3605: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< double const *, std::vector< double > >'],) in wrapper public: retval? ???::ConstValuesEnd (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3624: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< double *, std::vector< double > >'],) in wrapper public: retval? ???::ValuesBegin (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3628: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< double *, std::vector< double > >'],) in wrapper public: retval? ???::ValuesEnd (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:3859: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:4045: Warning: exception TypeLookupError(['ns3::Ptr< ns3::AntennaModel >', 'ns3::AntennaModel *'],) in wrapper public: virtual retval? ???::GetRxAntenna (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:4076: Warning: exception TypeLookupError(['ns3::Ptr< ns3::AntennaModel >', 'ns3::AntennaModel *'],) in wrapper public: retval? ???::SetAntenna (params?);
+  [param('ns3::Ptr< ns3::AntennaModel >', 'a')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:4252: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:4920: Warning: exception TypeLookupError(['ns3::Ptr< ns3::AntennaModel >', 'ns3::AntennaModel *'],) in wrapper public: virtual retval? ???::GetRxAntenna (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:4966: Warning: exception TypeLookupError(['ns3::Ptr< ns3::AntennaModel >', 'ns3::AntennaModel *'],) in wrapper public: retval? ???::SetAntenna (params?);
+  [param('ns3::Ptr< ns3::AntennaModel >', 'a')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5558: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::AddApplication (params?);
+  [param('ns3::Ptr< ns3::Application >', 'application')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5572: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::GetApplication (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5606: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::RegisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5614: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::UnregisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5875: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f85c7e90cd0>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size'), param('bool', 'magic')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5877: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f85c7e90d50>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5918: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5923: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5978: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  deprecated=True, is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5997: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:6002: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintByteTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:6007: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintPacketTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:6040: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:6159: Warning: exception TypeLookupError(['ns3::Ptr< ns3::AntennaModel >', 'ns3::AntennaModel *'],) in wrapper public: virtual retval? ???::GetRxAntenna (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:6172: Warning: exception TypeLookupError(['ns3::Ptr< ns3::AntennaModel >', 'ns3::AntennaModel *'],) in wrapper public: retval? ???::SetAntenna (params?);
+  [param('ns3::Ptr< ns3::AntennaModel >', 'a')])
+/home/pradeepkumar/ns-allinone-3.15/pybindgen-0.15.0.809/pybindgen/cppclass_typehandlers.py:1134: UserWarning: Returning shared pointers is dangerous!  The C++ API should be redesigned to avoid this situation.
+  warnings.warn("Returning shared pointers is dangerous!"
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5640: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::NonCommunicatingNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5763: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::NonCommunicatingNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:5768: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::NonCommunicatingNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:6441: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::AlohaNoackNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:6584: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::AlohaNoackNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:6594: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::AlohaNoackNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::WifiSpectrumValueHelper cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::WifiSpectrumValueHelper'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::SpectrumErrorModel cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::SpectrumErrorModel'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::SpectrumPropagationLossModel cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::SpectrumPropagationLossModel'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:577: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::NonCommunicatingNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  register_Ns3NonCommunicatingNetDevice_methods(root_module, root_module['ns3::NonCommunicatingNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:577: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::NonCommunicatingNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3NonCommunicatingNetDevice_methods(root_module, root_module['ns3::NonCommunicatingNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:577: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::NonCommunicatingNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3NonCommunicatingNetDevice_methods(root_module, root_module['ns3::NonCommunicatingNetDevice'])
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::SpectrumChannel cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::SpectrumChannel'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:596: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::AlohaNoackNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  register_Ns3AlohaNoackNetDevice_methods(root_module, root_module['ns3::AlohaNoackNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:596: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::AlohaNoackNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3AlohaNoackNetDevice_methods(root_module, root_module['ns3::AlohaNoackNetDevice'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/spectrum/bindings/modulegen__gcc_LP64.py:596: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::AlohaNoackNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3AlohaNoackNetDevice_methods(root_module, root_module['ns3::AlohaNoackNetDevice'])

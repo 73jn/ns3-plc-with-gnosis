@@ -1,0 +1,149 @@
+>>>>>>>>>>>>>>>> []
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:340: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f63b2611a50>
+  cls.add_constructor([param('uint8_t', 'type'), param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:351: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:356: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:360: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:365: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:415: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:420: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:471: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:476: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:490: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:520: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:533: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:588: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:632: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:855: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f63b254acd0>
+  cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:889: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:919: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:984: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:989: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1056: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1073: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f63b24b62d0>
+  cls.add_constructor([param('uint8_t *', 'address')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1091: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1116: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1220: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1225: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1233: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Set (params?);
+  [param('uint8_t *', 'address')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1243: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f63b2486150>
+  cls.add_constructor([param('uint8_t *', 'prefix')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1256: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1291: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1318: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1323: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1436: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1509: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1550: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['uint8_t [ 20 ]'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1701: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::GetImplementation (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1736: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::SetImplementation (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1825: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1837: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f63b22f4a50>
+  cls.add_constructor([param('uint8_t *', 'start'), param('uint8_t *', 'end')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1845: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1873: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:1938: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:2203: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:2231: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:2609: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:2837: Warning: exception TypeLookupError(['std::_List_iterator< ns3::Ptr< ns3::DataCalculator > >'],) in wrapper public: retval? ???::DataCalculatorBegin (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:2841: Warning: exception TypeLookupError(['std::_List_iterator< ns3::Ptr< ns3::DataCalculator > >'],) in wrapper public: retval? ???::DataCalculatorEnd (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:2874: Warning: exception TypeLookupError(['std::_List_iterator< std::pair< std::basic_string< char, std::char_traits< char >, std::allocator< char > >, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > >'],) in wrapper public: retval? ???::MetadataBegin (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:2878: Warning: exception TypeLookupError(['std::_List_iterator< std::pair< std::basic_string< char, std::char_traits< char >, std::allocator< char > >, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > >'],) in wrapper public: retval? ???::MetadataEnd (params?);
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3333: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f63b1f48c90>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size'), param('bool', 'magic')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3335: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7f63b1f48f90>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3376: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3381: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3436: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  deprecated=True, is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3455: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3460: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintByteTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3465: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintPacketTags (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3498: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:844: Warning: exception CodeGenerationError('ns3::StatisticalSummary cannot be constructed (class has pure virtual methods)',) in wrapper public: virtual void ns3::DataOutputCallback::OutputStatistic (std::string key, std::string variable, ns3::StatisticalSummary const * statSum) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:2787: Warning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper public: virtual void ns3::DataCalculator::Output (ns3::DataOutputCallback & callback) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3167: Warning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper public: virtual void ns3::MinMaxAvgTotalCalculator< unsigned int >::Output (ns3::DataOutputCallback & callback) const;
+  is_const=True, is_virtual=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper public: virtual void ns3::MinMaxAvgTotalCalculator< unsigned int >::Output (ns3::DataOutputCallback & callback) const;
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3558: Warning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper public: virtual void ns3::TimeMinMaxAvgTotalCalculator::Output (ns3::DataOutputCallback & callback) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:3697: Warning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper public: virtual void ns3::CounterCalculator< unsigned int >::Output (ns3::DataOutputCallback & callback) const;
+  is_const=True, is_virtual=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper public: virtual void ns3::CounterCalculator< unsigned int >::Output (ns3::DataOutputCallback & callback) const;
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::DataOutputCallback'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::StatisticalSummary cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::StatisticalSummary'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::DataCalculator cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::DataCalculator'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::DataOutputInterface cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::DataOutputInterface'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:313: Warning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper public: virtual void ns3::MinMaxAvgTotalCalculator< unsigned int >::Output (ns3::DataOutputCallback & callback) const;
+  register_Ns3MinMaxAvgTotalCalculator__Unsigned_int_methods(root_module, root_module['ns3::MinMaxAvgTotalCalculator< unsigned int >'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:322: Warning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper public: virtual void ns3::TimeMinMaxAvgTotalCalculator::Output (ns3::DataOutputCallback & callback) const;
+  register_Ns3TimeMinMaxAvgTotalCalculator_methods(root_module, root_module['ns3::TimeMinMaxAvgTotalCalculator'])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/stats/bindings/modulegen__gcc_LP64.py:328: Warning: exception CodeGenerationError('ns3::DataOutputCallback cannot be constructed (have pure virtual methods but no helper class)',) in wrapper public: virtual void ns3::CounterCalculator< unsigned int >::Output (ns3::DataOutputCallback & callback) const;
+  register_Ns3CounterCalculator__Unsigned_int_methods(root_module, root_module['ns3::CounterCalculator< unsigned int >'])

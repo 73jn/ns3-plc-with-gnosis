@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include/ns3.15
+
+Name: libns3-plc
+Description: ns-3 module ns3-plc
+Version: 3.15
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.15-plc-debug
+Cflags: -I${includedir}
+Requires: libns3.15-core-debug libns3.15-spectrum-debug libns3.15-network-debug

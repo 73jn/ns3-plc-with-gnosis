@@ -1,0 +1,17 @@
+>>>>>>>>>>>>>>>> []
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/propagation/bindings/modulegen__gcc_LP64.py:299: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/propagation/bindings/modulegen__gcc_LP64.py:304: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/propagation/bindings/modulegen__gcc_LP64.py:415: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/propagation/bindings/modulegen__gcc_LP64.py:487: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/propagation/bindings/modulegen__gcc_LP64.py:974: Warning: exception TypeLookupError(['ns3::RngStream *'],) in wrapper protected: retval? ???::Peek (params?) const;
+  is_const=True, visibility='protected')
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/propagation/bindings/modulegen__gcc_LP64.py:2180: Warning: exception TypeLookupError(['std::complex< double >'],) in wrapper public: retval? ???::GetComplexGain (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::PropagationDelayModel cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::PropagationDelayModel'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))

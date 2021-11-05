@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include/ns3.15
+
+Name: libns3-internet
+Description: ns-3 module ns3-internet
+Version: 3.15
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.15-internet-debug
+Cflags: -I${includedir}
+Requires: libns3.15-bridge-debug libns3.15-mpi-debug libns3.15-network-debug libns3.15-core-debug

@@ -1,0 +1,155 @@
+>>>>>>>>>>>>>>>> [['void', 'unsigned char*', 'long', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'std::string', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty']]
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python/ns3modulegen_core_customizations.py:225: Warning: ***** Unable to register callback; parameter 'unsigned char* arg1' error (used in ns3::Callback< void, unsigned char*, long, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >): TypeLookupError(['unsigned char *'],)
+  Warning)
+***** registering callback handler: 'ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, std::string, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:537: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:542: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:609: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fa8f2542b50>
+  cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:643: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:655: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::GlobalValue * const *, std::vector< ns3::GlobalValue * > >'],) in wrapper public: retval? ???::Begin (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:670: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::GlobalValue * const *, std::vector< ns3::GlobalValue * > >'],) in wrapper public: retval? ???::End (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:916: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:1328: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:1856: Warning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fa8f2214790>
+  cls.add_constructor([param('std::pair< double, double >', 'params')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:1858: Warning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x7fa8f2214bd0>
+  cls.add_constructor([param('std::pair< double, double >', 'params'), param('double', 'b')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:1901: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper protected: retval? ???::Peek (params?) const;
+  is_const=True, visibility='protected')
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:2186: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::Schedule (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:2191: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleDestroy (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:2196: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleNow (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:2201: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleWithContext (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:2325: Warning: exception TypeLookupError(['pthread_t'],) in wrapper public: retval? ???::Equals (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:2334: Warning: exception TypeLookupError(['pthread_t'],) in wrapper public: retval? ???::Self (params?);
+  is_static=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:2680: Warning: exception TypeLookupError(['timeval *'],) in wrapper protected: retval? ???::NsToTimeval (params?);
+  visibility='protected')
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:2695: Warning: exception TypeLookupError(['timeval *'],) in wrapper protected: retval? ???::TimevalAdd (params?);
+  visibility='protected')
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:2700: Warning: exception TypeLookupError(['timeval *'],) in wrapper protected: retval? ???::TimevalToNs (params?);
+  visibility='protected')
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:3135: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::Schedule (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:3140: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleDestroy (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:3145: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleNow (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:3150: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleWithContext (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:3472: Warning: exception TypeLookupError(['ns3::Callback< void, unsigned char *, long, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::Start (params?);
+  [param('int', 'fd'), param('ns3::Callback< void, unsigned char *, long, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'readCallback')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:3481: Warning: exception TypeLookupError(['ns3::FdReader::Data'],) in wrapper protected: virtual retval? ???::DoRead (params?) = 0;
+  is_pure_virtual=True, visibility='protected', is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:3813: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::Set (params?) const;
+  is_const=True, is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:3847: Warning: exception TypeLookupError(['std::_Rb_tree_const_iterator< std::pair< unsigned int const, ns3::Ptr< ns3::Object > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:3862: Warning: exception TypeLookupError(['std::_Rb_tree_const_iterator< std::pair< unsigned int const, ns3::Ptr< ns3::Object > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4092: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::Schedule (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4097: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleDestroy (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4102: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleNow (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4106: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::ScheduleRealtime (params?);
+  [param('ns3::Time const &', 'time'), param('ns3::EventImpl *', 'event')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4110: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::ScheduleRealtimeNow (params?);
+  [param('ns3::EventImpl *', 'event')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4114: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::ScheduleRealtimeNowWithContext (params?);
+  [param('uint32_t', 'context'), param('ns3::EventImpl *', 'event')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4118: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::ScheduleRealtimeWithContext (params?);
+  [param('uint32_t', 'context'), param('ns3::Time const &', 'time'), param('ns3::EventImpl *', 'event')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4123: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleWithContext (params?);
+  is_virtual=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4405: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Object > const, std::vector< ns3::Ptr< ns3::Object > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4426: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Object > const, std::vector< ns3::Ptr< ns3::Object > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4516: Warning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x7fa8f1b3f290>
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4520: Warning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x7fa8f1b3f510>
+  [])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4524: Warning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x7fa8f1b3f7d0>
+  [param('ns3::LogNodePrinter', 'arg0')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4528: Warning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x7fa8f1b3fcd0>
+  [param('ns3::LogTimePrinter', 'arg0')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4544: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper <pybindgen.function.Function object at 0x7fa8f1b5e810>
+  [param('void ( * ) (  ) *', 'f')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4772: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x7fa8f1a6c750>
+  [param('std::ostream *', 'stream')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4776: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x7fa8f1a6cd10>
+  [param('std::ostream *', 'stream')])
+/home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core/bindings/modulegen__gcc_LP64.py:4791: Warning: exception TypeLookupError(['std::_List_const_iterator< std::basic_string< char, std::char_traits< char >, std::allocator< char > > >'],) in wrapper <pybindgen.function.Function object at 0x7fa8f1a6cc50>
+  [param('std::_List_const_iterator< std::basic_string< char, std::char_traits< char >, std::allocator< char > > >', 'begin'), param('std::_List_const_iterator< std::basic_string< char, std::char_traits< char >, std::allocator< char > > >', 'end')])
+/home/pradeepkumar/ns-allinone-3.15/pybindgen-0.15.0.809/pybindgen/cppclass_typehandlers.py:1134: UserWarning: Returning shared pointers is dangerous!  The C++ API should be redesigned to avoid this situation.
+  warnings.warn("Returning shared pointers is dangerous!"
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::ObjectBase cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::ObjectBase'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::SimpleRefCount< ns3::Object, ns3::ObjectBase, ns3::ObjectDeleter > cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::SimpleRefCount< ns3::Object, ns3::ObjectBase, ns3::ObjectDeleter >'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::TimerImpl cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::TimerImpl'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Scheduler cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::Scheduler'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::SimulatorImpl cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::SimulatorImpl'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Synchronizer cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::Synchronizer'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::TraceSourceAccessor cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::TraceSourceAccessor'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::AttributeAccessor cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::AttributeAccessor'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::AttributeChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::AttributeChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::AttributeValue cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::AttributeValue'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::BooleanChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::BooleanChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::CallbackChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::CallbackChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::CallbackImplBase cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::CallbackImplBase'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::EventImpl cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::EventImpl'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::FdReader cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::FdReader'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::ObjectFactoryChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::ObjectFactoryChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::ObjectPtrContainerAccessor cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::ObjectPtrContainerAccessor'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::ObjectPtrContainerChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::ObjectPtrContainerChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::PointerChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::PointerChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::RandomVariableChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::RandomVariableChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::StringChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::StringChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::TimeChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::TimeChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::TypeIdChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::TypeIdChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Vector2DChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::Vector2DChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Vector3DChecker cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::Vector3DChecker'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))

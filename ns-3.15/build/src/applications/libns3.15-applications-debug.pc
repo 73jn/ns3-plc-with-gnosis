@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include/ns3.15
+
+Name: libns3-applications
+Description: ns-3 module ns3-applications
+Version: 3.15
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.15-applications-debug
+Cflags: -I${includedir}
+Requires: libns3.15-internet-debug libns3.15-config-store-debug libns3.15-tools-debug
