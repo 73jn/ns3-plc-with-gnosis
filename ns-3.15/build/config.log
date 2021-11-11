@@ -1,13 +1,13 @@
-# project ns (3.15) configured on Fri Nov  5 02:36:09 2021 by
+# project ns (3.15) configured on Thu Nov 11 09:03:00 2021 by
 # waf 1.6.11 (abi 98, python 20711f0 on linux2)
 # using ./waf configure
 #
 ----------------------------------------
 Setting top to
-/home/pradeepkumar/ns-allinone-3.15/ns-3.15
+/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15
 ----------------------------------------
 Setting out to
-/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build
+/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build
 ----------------------------------------
 Checking for 'gcc' (c compiler)
 find program=['gcc', 'cc'] paths=['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/home/pradeepkumar/gcc-arm-none-eabi-5_2-2015q4/bin', '/home/pradeepkumar/gcc-arm-none-eabi-5_2-2015q4/bin'] var='CC' -> '/usr/bin/gcc'
@@ -34,7 +34,7 @@ int main() { return 0; }
 ['/usr/bin/g++', '-std=c++0x', '-Wl,--soname=foo', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cc', '-c', '-o', 'test.cc.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/test.cc.1.o -> build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cc.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cc.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_fe0ca542f39064c5a14ee41a2e983996/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 ok
 ---------------------------------------------------------
 Checking for program python
@@ -89,18 +89,18 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 err: cc1plus: error: unrecognized command line option "-fstack-protector-strong"
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279253072: cxx test.cpp -> test.cpp.1.o}
+	{task 140671364073808: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: The configuration failed
 
 
 # try again with -L$python_LIBPL (some systems don't install the python library in $prefix/lib)
@@ -119,18 +119,18 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 err: cc1plus: error: unrecognized command line option "-fstack-protector-strong"
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279296400: cxx test.cpp -> test.cpp.1.o}
+	{task 140671364163920: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: The configuration failed
 
 
 # try again with -L$prefix/libs, and pythonXY name rather than pythonX.Y (win32)
@@ -149,18 +149,18 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 err: cc1plus: error: unrecognized command line option "-fstack-protector-strong"
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279397392: cxx test.cpp -> test.cpp.1.o}
+	{task 140671363678544: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: The configuration failed
 
 
 # try again with -L$python_LIBDIR: ['/usr/lib']
@@ -179,18 +179,18 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 err: cc1plus: error: unrecognized command line option "-fstack-protector-strong"
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279399184: cxx test.cpp -> test.cpp.1.o}
+	{task 140671363679568: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: The configuration failed
 
 
 # try again with -L$python_LIBPL (some systems don't install the python library in $prefix/lib)
@@ -209,18 +209,18 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 err: cc1plus: error: unrecognized command line option "-fstack-protector-strong"
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279974736: cxx test.cpp -> test.cpp.1.o}
+	{task 140671363681296: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: The configuration failed
 
 
 # try again with -L$prefix/libs, and pythonXY name rather than pythonX.Y (win32)
@@ -239,18 +239,18 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 err: cc1plus: error: unrecognized command line option "-fstack-protector-strong"
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279976016: cxx test.cpp -> test.cpp.1.o}
+	{task 140671364074768: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: The configuration failed
 
 
 ### LIB NOT FOUND
@@ -290,18 +290,18 @@ int main()
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-fno-strict-aliasing', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 err: cc1plus: error: unrecognized command line option "-fstack-protector-strong"
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279400016: cxx test.cpp -> test.cpp.1.o}
+	{task 140671364165328: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-fno-strict-aliasing', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 Could not find the python development headers
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: The configuration failed
 -------------------------------------------------------------------------
 Checking for '/usr/bin/python2.7-config'
 ['/usr/bin/python2.7-config', '--cflags', '--libs']
@@ -336,18 +336,18 @@ int main()
 err: cc1plus: error: unrecognized command line option "-fstack-protector-strong"
 cc1plus: error: unrecognized command line option "-fstack-protector-strong"
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279977232: cxx test.cpp -> test.cpp.1.o}
+	{task 140671363758800: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-fno-strict-aliasing', '-fwrapv', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-fno-strict-aliasing', '-fno-strict-aliasing', '-fdebug-prefix-map=/build/python2.7-gnDdqE/python2.7-2.7.17=.', '-fstack-protector-strong', '-fwrapv', '-I/usr/include/python2.7', '-I/usr/include/x86_64-linux-gnu/python2.7', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/dist-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/dist-packages"', '-DHAVE_PYEMBED=1', '-DNDEBUG', '-D_FORTIFY_SOURCE=2', '-D_FORTIFY_SOURCE=2', '-DNDEBUG', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 Could not find the python development headers elsewhere
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/bindings/python: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/bindings/python: The configuration failed
 -------------------------------------------------------------------------
 Checking for click location
 not found
@@ -381,18 +381,18 @@ err: ../test.cpp: In function ‘int main()’:
 ../test.cpp:4: error: expected ‘)’ before numeric constant
 ../test.cpp:5: error: ‘uint128_t’ was not declared in this scope
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/src/core: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632280028304: cxx test.cpp -> test.cpp.1.o}
+	{task 140671363733072: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/src/core: The configuration failed
 -------------------------------------------------------------------------
 Checking for type __uint128_t
 ==>
@@ -409,7 +409,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_703a8a276d4ad265d967b1b45f1fc578/testbuild/test.cpp.1.o -> build/.conf_check_703a8a276d4ad265d967b1b45f1fc578/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_703a8a276d4ad265d967b1b45f1fc578/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_703a8a276d4ad265d967b1b45f1fc578/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking high precision time implementation
@@ -429,7 +429,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_c59373285bc13999c3df79164cb29af1/testbuild/test.cpp.1.o -> build/.conf_check_c59373285bc13999c3df79164cb29af1/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_c59373285bc13999c3df79164cb29af1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_c59373285bc13999c3df79164cb29af1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header inttypes.h
@@ -446,7 +446,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_591f7be6a22ba3cd4f507fd8bc09bd2a/testbuild/test.cpp.1.o -> build/.conf_check_591f7be6a22ba3cd4f507fd8bc09bd2a/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_591f7be6a22ba3cd4f507fd8bc09bd2a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_591f7be6a22ba3cd4f507fd8bc09bd2a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -464,18 +464,18 @@ int main() {
 err: ../test.cpp:1: fatal error: sys/inttypes.h: No such file or directory
 compilation terminated.
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/src/core: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279974544: cxx test.cpp -> test.cpp.1.o}
+	{task 140671363841296: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/src/core: The configuration failed
 -------------------------------------------------------------------------
 Checking for header sys/types.h
 ==>
@@ -491,7 +491,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_293985459965597c97c3759b44ed252b/testbuild/test.cpp.1.o -> build/.conf_check_293985459965597c97c3759b44ed252b/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_293985459965597c97c3759b44ed252b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_293985459965597c97c3759b44ed252b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header sys/stat.h
@@ -508,7 +508,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_114df6287ed99356d14a06682bc98197/testbuild/test.cpp.1.o -> build/.conf_check_114df6287ed99356d14a06682bc98197/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_114df6287ed99356d14a06682bc98197/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_114df6287ed99356d14a06682bc98197/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header dirent.h
@@ -525,7 +525,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_38008f7ca978e5462e378992d39050f1/testbuild/test.cpp.1.o -> build/.conf_check_38008f7ca978e5462e378992d39050f1/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_38008f7ca978e5462e378992d39050f1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_38008f7ca978e5462e378992d39050f1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header stdlib.h
@@ -542,7 +542,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_29f41b0aad55c9546dfc9b7ce9859059/testbuild/test.cpp.1.o -> build/.conf_check_29f41b0aad55c9546dfc9b7ce9859059/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_29f41b0aad55c9546dfc9b7ce9859059/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_29f41b0aad55c9546dfc9b7ce9859059/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header signal.h
@@ -559,7 +559,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_cc227f9b4319ad1c726eca4fb806395e/testbuild/test.cpp.1.o -> build/.conf_check_cc227f9b4319ad1c726eca4fb806395e/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_cc227f9b4319ad1c726eca4fb806395e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_cc227f9b4319ad1c726eca4fb806395e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header pthread.h
@@ -579,7 +579,7 @@ int main ()
 ['/usr/bin/g++', '-std=c++0x', '-pthread', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_2be466e82e703a744ee152afe2b58299/testbuild/test.cpp.1.o -> build/.conf_check_2be466e82e703a744ee152afe2b58299/testbuild/testprog
 [0m
-['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_2be466e82e703a744ee152afe2b58299/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_2be466e82e703a744ee152afe2b58299/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header stdint.h
@@ -596,7 +596,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_c59373285bc13999c3df79164cb29af1/testbuild/test.cpp.1.o -> build/.conf_check_c59373285bc13999c3df79164cb29af1/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_c59373285bc13999c3df79164cb29af1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_c59373285bc13999c3df79164cb29af1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header inttypes.h
@@ -613,7 +613,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_591f7be6a22ba3cd4f507fd8bc09bd2a/testbuild/test.cpp.1.o -> build/.conf_check_591f7be6a22ba3cd4f507fd8bc09bd2a/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_591f7be6a22ba3cd4f507fd8bc09bd2a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_591f7be6a22ba3cd4f507fd8bc09bd2a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -631,18 +631,18 @@ int main() {
 err: ../test.cpp:1: fatal error: sys/inttypes.h: No such file or directory
 compilation terminated.
 
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core: Test does not build: Traceback (most recent call last):
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/src/core: Test does not build: Traceback (most recent call last):
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Tools/c_config.py", line 445, in run_c_code
     bld.compile()
-  File "/home/pradeepkumar/ns-allinone-3.15/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
+  File "/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/.waf-1.6.11-30618c54883417962c38f5d395f83584/waflib/Build.py", line 190, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 140632279974544: cxx test.cpp -> test.cpp.1.o}
+	{task 140671363138384: cxx test.cpp -> test.cpp.1.o}
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 
 not found
-from /home/pradeepkumar/ns-allinone-3.15/ns-3.15/src/core: The configuration failed
+from /home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/src/core: The configuration failed
 -------------------------------------------------------------------------
 Checking for library rt
 ==>
@@ -657,7 +657,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-pthread', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_fc0bab0b855f90bf0795892663948c43/testbuild/test.cpp.1.o -> build/.conf_check_fc0bab0b855f90bf0795892663948c43/testbuild/testprog
 [0m
-['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_fc0bab0b855f90bf0795892663948c43/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
+['/usr/bin/g++', '-pthread', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_fc0bab0b855f90bf0795892663948c43/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lrt']
 yes
 -------------------------------------------------------------------------
 Checking for header netpacket/packet.h
@@ -674,7 +674,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_0927534631877d46f179382e3e16c60a/testbuild/test.cpp.1.o -> build/.conf_check_0927534631877d46f179382e3e16c60a/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_0927534631877d46f179382e3e16c60a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_0927534631877d46f179382e3e16c60a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for NSC location
@@ -693,7 +693,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_PACKET_H=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_d41260396f19e38ce84fe4d01cedee3c/testbuild/test.cpp.1.o -> build/.conf_check_d41260396f19e38ce84fe4d01cedee3c/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_d41260396f19e38ce84fe4d01cedee3c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-ldl']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_d41260396f19e38ce84fe4d01cedee3c/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-ldl']
 yes
 -------------------------------------------------------------------------
 Checking for NSC supported architecture x86_64
@@ -721,7 +721,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_PACKET_H=1', '-DHAVE_DL=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_39b3cecfac3989b2ed760243cef109e6/testbuild/test.cpp.1.o -> build/.conf_check_39b3cecfac3989b2ed760243cef109e6/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_39b3cecfac3989b2ed760243cef109e6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lsqlite3']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_39b3cecfac3989b2ed760243cef109e6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-lsqlite3']
 yes
 -------------------------------------------------------------------------
 Checking for header linux/if_tun.h
@@ -738,7 +738,7 @@ int main() {
 ['/usr/bin/g++', '-std=c++0x', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_PACKET_H=1', '-DHAVE_DL=1', '-DSQLITE3=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
 [2/2] [33mcxxprogram: build/.conf_check_e2bf758aaca47858b67848f504a8de27/testbuild/test.cpp.1.o -> build/.conf_check_e2bf758aaca47858b67848f504a8de27/testbuild/testprog
 [0m
-['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_e2bf758aaca47858b67848f504a8de27/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_e2bf758aaca47858b67848f504a8de27/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 yes
 -------------------------------------------------------------------------
 Checking for program sudo
@@ -765,7 +765,7 @@ int main() { return 0; }
 ['/usr/bin/gcc', '-Wno-error=deprecated-declarations', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_PACKET_H=1', '-DHAVE_DL=1', '-DSQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DENABLE_GSL', '../test.c', '-c', '-o', 'test.c.1.o']
 [2/2] [33mcprogram: build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/test.c.1.o -> build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog
 [0m
-['/usr/bin/gcc', 'test.c.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/gcc', 'test.c.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 ok
 -------------------------------------------------------------------------
 Checking for compilation flag -fstrict-aliasing... support
@@ -779,7 +779,7 @@ int main() { return 0; }
 ['/usr/bin/gcc', '-fstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_PACKET_H=1', '-DHAVE_DL=1', '-DSQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DENABLE_GSL', '../test.c', '-c', '-o', 'test.c.1.o']
 [2/2] [33mcprogram: build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/test.c.1.o -> build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog
 [0m
-['/usr/bin/gcc', 'test.c.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/gcc', 'test.c.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 ok
 -------------------------------------------------------------------------
 Checking for compilation flag -Wstrict-aliasing... support
@@ -793,7 +793,7 @@ int main() { return 0; }
 ['/usr/bin/gcc', '-Wstrict-aliasing', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_PACKET_H=1', '-DHAVE_DL=1', '-DSQLITE3=1', '-DHAVE_IF_TUN_H=1', '-DENABLE_GSL', '../test.c', '-c', '-o', 'test.c.1.o']
 [2/2] [33mcprogram: build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/test.c.1.o -> build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog
 [0m
-['/usr/bin/gcc', 'test.c.1.o', '-o', '/home/pradeepkumar/ns-allinone-3.15/ns-3.15/build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/gcc', 'test.c.1.o', '-o', '/home/pradeepkumar/Desktop/ns3-plc-with-gnosis/ns-3.15/build/.conf_check_d8a2c40aecfb7c8eac7dd03fcbfb1110/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 ok
 -------------------------------------------------------------------------
 Checking for program doxygen

@@ -297,7 +297,8 @@ void PLCSimulator::collectTransferFunctions(QStringList enTxNodes, QStringList e
                     //Plot the channel transfer functionnew BodeWidget();
                     Ptr<PLC_TransferVector> data = StaticCast<PLC_TransferVector, PLC_TransferBase> (chTransFunc);
                     BodeData plotData = ctfToPlottable(data);
-
+                    qDebug() << "test";
+                    qDebug() << "Data : " << plotData;
                     qDebug() << "Adding: " << name << "to Bode Widget";
                     bodePlot->addBodePlot(&plotData, name);
 
@@ -367,6 +368,8 @@ void PLCSimulator::collectTransferFunctions(){
                     BodeData plotData = ctfToPlottable(data);
 
                     qDebug() << "Adding: " << name << "to Bode Widget";
+                    qDebug() << "test";
+                    qDebug() << "Data : " << plotData;
                     bodePlot->addBodePlot(&plotData, name);
 
                     qDebug() << "Exporting ctf to" << (name + ".dat");
