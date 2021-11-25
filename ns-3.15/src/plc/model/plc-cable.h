@@ -36,7 +36,7 @@
 #define EPS_0 	8.854188e-12 	// F/m
 #define MU_0	12.566371e-7	// H/m
 #define MU_R	1
-#define RHO		2.82e-8			// for aluminium (multiple references; to fit Dostert's curves)
+#define RHO	1.77e-8         // <- copper	// Aluminum : 2.82e-8			// for aluminium (multiple references; to fit Dostert's curves)
 #define TAND	0.01			// depends on insulation
 #define MU		(MU_0 * MU_R)
 #define EPS_R	4
@@ -47,10 +47,10 @@
 #define GKN_D 0.65e-3
 #define GKN_THETA 1.3e-3
 
-#define NAYY150SE_D		1.3e-3//1.8e-3		// insulation, m                                        //Two insulation so 0.65mm * 2
-#define NAYY150SE_A		6e-6//6e-4		// conductor area, 4*150e-6m^2                          //6mm^2 * 2
-#define NAYY150SE_THETA	        2.6e-3//3.6e-3		// 2*NAYY150SE_D
-#define NAYY150SE_R		1.381976e-3//13.82e-3	// radius, m, r = sqrt(A/pi)
+#define NAYY150SE_D		2e-3//0.8mm + 1.35mm -shield (env.0.15mm) between the neutral and phase 1    //1.8e-3       // insulation, m                                        //Two insulation so 0.65mm * 2
+#define NAYY150SE_A		2.4e-5//4*6mm2 is equal to 2.4e-5mm2             //6e-4	        // conductor area, 4*150e-6m^2                          //6mm^2 * 2
+#define NAYY150SE_THETA	        4e-3                                           //3.6e-3		// 2*NAYY150SE_D
+#define NAYY150SE_R		2.76e-3//1.381976e-3//13.82e-3	// radius, m, r = sqrt(A/pi)
 
 #define NAYY50SE_D		1.4e-3		// insulation, m
 #define NAYY50SE_A		2e-4		// conductor area, 4*50e-6m^2
